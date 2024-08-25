@@ -2,7 +2,7 @@
 
 namespace App\Factories;
 
-class ElectricGuitarFactory extends GuitarFactory
+class ElectricGuitarFactory implements IGuitarFactory
 {
     private string $guitarType;
 
